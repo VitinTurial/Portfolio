@@ -1,0 +1,62 @@
+body{
+  background-color: black;
+}
+
+section.conhecimentos{
+  padding: 40px 4%;
+ }
+ 
+ section.conhecimentos .flex{
+  gap: 60px;
+ }
+ 
+ .conhecimentos .conhecimentos-box{
+    color: white;
+    padding: 40px;
+    border-radius: 22px;
+    margin-top: 40px;
+    transition: .2s;
+ }
+ .conhecimentos .conhecimentos-box:hover{
+  transform: scale(1.08px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.514);
+ }
+ 
+ .conhecimentos .conhecimentos-box i{
+   font-size: 60px;
+   color: rgb(189, 0, 0);
+ }
+ 
+ .conhecimentos .conhecimentos-box h3{
+  color: red;
+  font-size: 29px;
+  margin: 15px 0;  
+ }
+
+ section.sobre{
+  padding: 80px 4%; 
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre{
+  color: white;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+  color: rgb(190, 0, 0);
+  display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px;
+    text-align: justify;
+}
